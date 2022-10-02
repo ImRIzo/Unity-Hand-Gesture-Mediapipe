@@ -20,6 +20,16 @@ namespace Mediapipe.Unity
     [SerializeField] private Color _color = Color.green;
     [SerializeField] private float _radius = 15.0f;
 
+    //private void OnEnable()
+    //{
+    //        int i = 0;
+    //        foreach (Transform point in this.transform)
+    //        {
+    //            i++;
+    //            if(i==12)
+    //                point.GetComponent<SphereCollider>().isTrigger = true;
+    //        }
+    //}
     private void OnValidate()
     {
       ApplyColor(_color);
